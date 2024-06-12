@@ -1,0 +1,227 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item a {
+    padding: 0 20px;
+    color: white;
+}
+
+.navbar {
+    background-image: linear-gradient(to right, #36A6AC, #288AC7);
+    font-family: "Lilita One", sans-serif;
+    position: sticky;
+}
+
+.nav-brand img {
+    height: 120px;
+    padding-left: 30px;
+}
+
+.navbar-nav li {
+    padding: 0 20px;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.slogan {
+    font-weight: bold;
+}
+
+.clearfix {
+    margin-top: 150px;
+}
+
+
+
+#banner {
+    background-image: linear-gradient(to right, #36A6AC, #288AC7);
+    color: white;
+    padding-top: 7%;
+}
+
+.brand {
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.img-fluid {
+    padding-bottom: 4%;
+    margin-right: 2%;
+}
+
+
+.about {
+    font-weight: lighter;
+}
+
+h2,
+h1,
+h4 {
+    text-align: center;
+    font-family: "Lilita One", sans-serif;
+}
+
+#services {
+    background-image: linear-gradient(to right, #36A6AC, #288AC7);
+    color: white;
+    padding-top: 7%;
+    gap: 2%;
+}
+
+p {
+    font-weight: lighter;
+}
+
+.title {
+    font-family: "Lilita One", sans-serif;
+    margin: 30px 0;
+}
+
+#testimonials {
+    margin: 0;
+    background-image: linear-gradient(to right, #36A6AC, #288AC7);
+    color: white;
+    padding-top: 5%;
+    font-weight: lighter;
+}
+
+.testimonials {
+    border-left: 4px solid #b8b8c4;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.testimonials img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+
+}
+
+.user-details {
+    display: inline-block;
+    font-weight: bold;
+    color: black;
+
+
+}
+
+.social-icons {
+    font-size: xx-large;
+    color: black;
+
+}
+
+.bi {
+    margin: 0 7px;
+}
+
+#contact {
+    background-image: linear-gradient(to right, #36A6AC, #288AC7);
+    padding: 7% 0;
+}
+
+#contact h1 {
+    margin-bottom: 40px;
+    font-family: "Lilita One", sans-serif;
+    color: white;
+}
+
+#contact .form-label {
+    font-weight: lighter;
+    color: black;
+}
+
+#contact .form-control {
+    border: 2px solid #b8b8c4;
+    border-radius: 5px;
+}
+
+#contact .form-control:focus {
+    border-color: #b8b8c4;
+    box-shadow: none;
+}
+
+#contact .btn {
+    background-color: #b8b8c4;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact .btn:hover {
+    background-color: #288AC7;
+}
+
+
+#contact .container {
+    max-width: 800px;
+    margin: auto;
+}
+
+#contact .row {
+    align-items: center;
+}
+
+#contact .col-md-6:last-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.location {
+    font-size: xx-large;
+    margin-bottom: 350px;
+}
+
+.bii {
+    margin: 0 20px;
+}
+
+#footer {
+    background-image: linear-gradient(to right, #36A6AC, #288AC7);
+    color: #fff;
+}
+
+#footer h5 {
+    font-family: "Lilita One", sans-serif;
+    margin-bottom: 20px;
+}
+
+#footer p,
+#footer a {
+    font-weight: lighter;
+    color: #fff;
+}
+
+#footer a:hover {
+    color: #36A6AC;
+}
+
+#footer .social-icons {
+    margin-top: 20px;
+}
+
+#footer .social-icons a {
+    font-size: 24px;
+    margin-right: 15px;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+#footer .social-icons a:hover {
+    color: #36A6AC;
+}
+
+#footer .container {
+    max-width: 800px;
+}
